@@ -3,7 +3,6 @@
     const options = {
       hour: 'numeric',
 
-      day: 'numeric',
       month: 'long',
       year: 'numeric',
       weekday: 'numeric',
