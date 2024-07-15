@@ -1,0 +1,45 @@
+{
+  "dependencies": {
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.7",
+    "node": "^18.20.4",
+    "prettier": "^3.3.3"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "19.3.0",
+    "@commitlint/config-conventional": "19.2.2",
+    "@eslint/js": "^9.7.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^9.7.0",
+    "globals": "^15.8.0",
+    "husky": "^8.0.0",
+    "standard-version": "^9.5.0"
+  },
+  "lint-staged": {
+    "**.js": [
+      "npx prettier --write --ignore-unknown",
+      "eslint "
+    ]
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "cz": "cz",
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "release:major": "standard-version --release-as major"
+  },
+  "name": "t1",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
