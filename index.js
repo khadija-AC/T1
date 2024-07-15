@@ -2,7 +2,6 @@
   function greet(name) {
     const options = {
       hour: 'numeric',
-
       month: 'long',
       year: 'numeric',
       weekday: 'numeric',
