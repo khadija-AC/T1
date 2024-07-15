@@ -1,15 +1,11 @@
 (function (exports) {
-  
-    
-
-
-
-
-
-
-  
   function greet(name) {
-    
+    const a=0
+
+
+
+
+
 
     const options = {
       weekday: "long",
