@@ -1,9 +1,6 @@
 (function (exports) {
   function greet(name) {
-    const a=0
-
-
-
+    
 
 
 
