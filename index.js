@@ -1,6 +1,7 @@
 (function (exports) {
   function greet(name) {
     const options = {
+      weekday: "long",
       year: "numeric",
       month: "long",
       day: "numeric",
